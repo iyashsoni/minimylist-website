@@ -35,13 +35,13 @@ function App() {
         <div style={{ margin: "1rem" }}>
           <h3>What is it?</h3>
         </div>
-        <div style={{ margin: "1rem" }}>
+        <div>
           <h4>Your minimal productivity assistant!</h4>
         </div>
         <div style={{ margin: "1rem" }}>
           <h3>Wait, what?</h3>
         </div>
-        <div style={{ margin: "1rem" }}>
+        <div>
           <h4>
             Well, it's a Web Extension that you can use for keeping a tab on
             quick-notes and tasks at hand, <br />
