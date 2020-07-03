@@ -19,9 +19,10 @@ function App() {
             height="100px"
             alt="app-icon"
           />
-          <p style={{ marginLeft: "1rem" }}>minimylist</p>
+          <h3 style={{ marginLeft: "1rem" }}>minimylist</h3>
         </div>
       </header>
+      <hr />
       <div
         id="description"
         style={{
@@ -32,67 +33,55 @@ function App() {
           alignItems: "center",
         }}
       >
-        <div style={{ margin: "1rem" }}>
-          <h3>What is it?</h3>
-        </div>
         <div>
           <h4>Your minimal productivity assistant!</h4>
         </div>
-        <div style={{ margin: "1rem" }}>
-          <h3>Wait, what?</h3>
-        </div>
         <div>
           <h4>
-            Well, it's a Web Extension that you can use for keeping a tab on
+            It's a Web Extension that you can use for keeping a tab on
             quick-notes and tasks at hand, <br />
             so yeah - a productivity assistant!
           </h4>
         </div>
-        <div style={{ marginTop: "1rem" }}>
-          <h3>Features?</h3>
-        </div>
         <div>
           <ul>
             <li>
-              <h4>
+              <h5>
                 Notes
                 <span role="img" aria-label="note">
                   📝
                 </span>
-              </h4>
+              </h5>
             </li>
             <li>
-              <h4>
+              <h5>
                 Tasks
                 <span role="img" aria-label="tick">
                   ✅
                 </span>
-              </h4>
+              </h5>
             </li>
             <li>
-              <h4>
+              <h5>
                 Inspirational Quote of the Day
                 <span role="img" aria-label="blessed">
                   😇
                 </span>
-              </h4>
+              </h5>
             </li>
             <li>
-              <h4>
+              <h5>
                 Dark mode{" "}
                 <span role="img" aria-label="moon">
-                  🌚
+                  🌚{" "}
                 </span>
-                / Light mode
+                / Light mode{" "}
                 <span role="img" aria-label="sun">
                   🌞
                 </span>
-              </h4>
+              </h5>
             </li>
           </ul>
-        </div>
-        <div style={{ padding: "1rem" }}>
-          <h3>How does it look?</h3>
         </div>
         <img
           width="100%"
@@ -104,14 +93,17 @@ function App() {
       </div>
 
       <div style={{ margin: "1rem" }}>
-        <h3>Cool! Show me where can I get this</h3>
+        <h3>Download now</h3>
       </div>
+
+      {/** Download section **/}
       <div
         style={{
           margin: "1rem",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/waves.svg)`,
         }}
       >
         <a
